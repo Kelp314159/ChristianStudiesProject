@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pregnancy Dilemma Simulation</title>
+    <title>Pregnancy Dilemma Simulator</title>
     <style>
         * {
             margin: 0;
@@ -291,9 +291,9 @@
 </head>
 <body>
     <header>
-        <h1>Pregnancy Dilemma Simulation</h1>
+        <h1>To Abort or not to Abort</h1>
         <p class="description">
-            An ethical exploration: The baby exists in superposition - both inside the pregnant person and on the track.
+            The baby exists in superposition - both inside the pregnant person's womb and on the track.
             Your mother will discover the pregnancy and kill whoever is on the chosen track.
         </p>
     </header>
@@ -364,14 +364,23 @@
 
     <div class="ethical-explanation">
         <h3>Ethical Considerations</h3>
-        <p>This dilemma explores complex ethical questions around:</p>
+        <p>Consider the following:</p>
         <ul>
-            <li><strong>Bodily Autonomy:</strong> The right to make decisions about one's own body</li>
-            <li><strong>Moral Status of the Fetus:</strong> When does personhood begin?</li>
-            <li><strong>Consequentialism vs. Deontology:</strong> Weighing outcomes against moral rules</li>
-            <li><strong>Family Dynamics:</strong> The impact of external pressures on personal decisions</li>
+            <li><strong>Too Young:</strong> How’d you even get here in the first place?
+            </li>
+            <li><strong>Financial Stability:</strong> You can’t even support yourself and now you’re trying to provide for another?
+            </li>
+            <li><strong>Who’s the Father:</strong> Ouch! Saw him with another girl last weekend.
+            </li>
+            <li><strong>Health:</strong> You might die if you do this.
+            </li>
+            <li><strong>Parent’s Reaction:</strong> If pregnancy didn’t end you, your parents definitely will.
+            </li>
+            <li><strong>Government:</strong> You just broke the law. Have fun in jail!
+            </li>
+            <li><strong>Abort the baby:</strong> SELFISH SELFISH SELFISH. God gave you life and you’re just wasting it? Unbelievable.</li>
         </ul>
-        <p>This simulation simplifies a deeply personal and complex real-world issue for philosophical exploration.</p>
+        <p>The topic of abortion is much more complicated than a simple choice.</p>
     </div>
 
     <script>
@@ -445,7 +454,7 @@
             activateScenario(true);
             
             // Update UI
-            decisionText.textContent = "You pulled the lever, choosing to abort. The baby on the side track is killed, but the pregnant person survives. Your mother never finds out about the pregnancy.";
+            decisionText.textContent = "You absolute cruel mother. How could you do that? After the blessing given upon you, you chose to throw it all away? Not only will you be questioned and potentially break the law, you’ll have to live with the shame of doing that to your own child. It could’ve been healthy. It could’ve grown to be happy. You are sick.";
             results.classList.remove('results-hidden');
             
             // Save to localStorage
@@ -463,7 +472,7 @@
             activateScenario(false);
             
             // Update UI
-            decisionText.textContent = "You did nothing, choosing to keep the baby. Your mother discovers the pregnancy and kills both the pregnant person and the baby on the main track.";
+            decisionText.textContent = "You did nothing, choosing to keep the baby. Not only did you risk your life for this pregnancy, your parents are also furious. The father yells at you for choosing this route, or isn’t financially capable to keep up with the lifestyle. You will end up with crippling depression all alone with people mocking you for having a baby at such a young age. You will see your baby’s eyes and regret your entire life choices forever. How fun! Just try not to go insane!";
             results.classList.remove('results-hidden');
             
             // Save to localStorage
